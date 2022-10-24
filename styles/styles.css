@@ -37,13 +37,13 @@ body {
 }
 
 .navigation {
- font-size: 20px;
- line-height: 24px;
- font-weight: 700;
- text-align: center;
- color: #000000;
- background-color: #ffffff;
- text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
 }
 
 .maim-index {
@@ -56,7 +56,8 @@ body {
 }
 
 .logo-welcome {
-  display: block; margin: 0 auto
+  display: block;
+  margin: 0 auto;
 }
 
 .index-title {
@@ -174,7 +175,7 @@ body {
 }
 
 .inner-breadcrumbs-link {
- color: inherit;
+  color: inherit;
 }
 
 .catalog-filter-grooup {
@@ -245,7 +246,7 @@ body {
 }
 
 .pagination {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   color: #ffffff;
   font-size: 20px;
   line-height: 36px;
@@ -254,6 +255,6 @@ body {
 }
 
 .pagination-link pagination-current {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: #000000;
 }
