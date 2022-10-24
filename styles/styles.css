@@ -16,9 +16,7 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
-  color: #242424;
+  color: #000000;
   background-color: #ffffff;
 }
 
@@ -39,19 +37,17 @@ body {
 }
 
 .navigation {
- font-family: "PT Sans" sans-serif ;
- font-style: bold;
  font-size: 20px;
  line-height: 24px;
  font-weight: 700;
  text-align: center;
- color: #000;
+ color: #000000;
  background-color: #ffffff;
  text-decoration: none;
 }
 
 .maim-index {
-  color: #000;
+  color: #000000;
   background-color: #ffffff;
   background-image: url("../images/preview/holma.jpg");
   background-size: 100% auto;
@@ -72,7 +68,7 @@ body {
 }
 
 .index-item-description {
-   color: #000;
+  color: #000;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -94,8 +90,8 @@ body {
 }
 
 .advantages-item-description {
-  color: #fff;
-  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -103,16 +99,12 @@ body {
 }
 
 .advantages-list {
-  font-family: "PT Sans" sans-serif;
-  font-style: bold;
   font-size: 24px;
   line-height: 28px;
 }
 
 .data {
-  font-family: "PT Sans";
-  font-style: bold;
-  color: #000;
+  color: #000000;
   background-color: #ffffff;
   font-weight: 700;
   font-size: 30px;
@@ -128,7 +120,6 @@ body {
 }
 
 .page-footer {
-  font-family: "PT Sans" sans-serif;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -138,7 +129,7 @@ body {
 .subscribe {
   color: #ffffff;
   background-image: url("../images/fon/fon-1.jpg");
-   background-size: 100% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   text-transform: uppercase;
 }
@@ -154,25 +145,24 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-
 /** Нет идей :)
-.social {
+.social-list {
 
 }
 **/
 .contact {
-  color: #000;
-  font-family: "PT Sans";
+  color: #000000;
   font-weight: 400;
-  font-style: normal;
   font-size: 40px;
   line-height: 40px;
-  text-decoration-line: underline;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .main-inner {
+  background-color: #ffffff;
+  color: #000000;
   background-image: url("../images/fon/fon-2.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -191,26 +181,79 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
-.catalog-control-input {
+.catalog-control {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
-}
-
-.main-inner{
-  background-color: #ffffff;
-  color: #000;
 }
 
 .select-amount {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  text-align: left;
 }
 
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.display-list {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.display-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.display-name {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.display-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.display-favorites {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.display-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.pagination {
+  background-color: #82B3D3;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pagination-link pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
