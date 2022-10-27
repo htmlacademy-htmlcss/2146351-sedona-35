@@ -46,13 +46,19 @@ body {
   text-decoration: none;
 }
 
-.maim-index {
-  color: #000000;
-  background-color: #ffffff;
-  background-image: url("../images/preview/holma.jpg");
+.main-index {
+  color: #ffffff;
+  background-color: #000000;
+  text-transform: uppercase;
+}
+
+.logo-welcome-wrapper {
+  background-image: url("../images/background/bg-3.svg"), url("../images/preview/holma.jpg");
+  background-position: bottom, center;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  text-transform: uppercase;
+  background-color: #000000;
+
 }
 
 .logo-welcome {
@@ -61,7 +67,8 @@ body {
 }
 
 .index-title {
-  color: #000;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -69,7 +76,8 @@ body {
 }
 
 .index-item-description {
-  color: #000;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -82,8 +90,8 @@ body {
 }
 
 .advantages-item-title {
-  color: #fff;
-  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -129,7 +137,7 @@ body {
 
 .subscribe {
   color: #ffffff;
-  background-image: url("../images/fon/fon-1.jpg");
+  background-image: url("../images/background/bg-1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-transform: uppercase;
@@ -162,20 +170,21 @@ body {
 }
 
 .main-inner {
-  background-color: #ffffff;
-  color: #000000;
-  background-image: url("../images/fon/fon-2.jpg");
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.header-inner-wrapper {
+  background-image: url("../images/background/bg-2.jpg");
+  background-position: bottom, center;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  text-transform: uppercase;
+  background-color: #000000;
 }
 
-.inner-breadcrumbs-item {
-  color: #fff;
-}
-
-.inner-breadcrumbs-link {
-  color: inherit;
+.sorting {
+ color: #000000;
+  background-color: #ffffff;
 }
 
 .catalog-filter-grooup {
@@ -254,7 +263,7 @@ body {
   text-decoration: none;
 }
 
-.pagination-link pagination-current {
+.pagination-link .pagination-current {
   background-color: #f2f2f2;
   color: #000000;
 }
