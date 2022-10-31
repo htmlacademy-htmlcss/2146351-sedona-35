@@ -1,0 +1,385 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: format("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation {
+ display: flex;
+ width: 1200px;
+ margin: 0 auto;
+}
+
+.header-item-logo {
+ width: 140px;
+ height: 70px;
+}
+
+.navigation-list {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user{
+  max-width: 310px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-index {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo-welcome-wrapper {
+  background-image: url("../images/background/bg-3.svg"), url("../images/preview/holma.jpg");
+  background-position: bottom, center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.logo-welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+.index-title {
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.index-item-description {
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-item-title {
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.advantages-item-description {
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.advantages-item {
+  margin: 0 auto;
+}
+
+.advantage-container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.advantages-item-image {
+ width: 800px;
+ height: 384;
+}
+
+.advantage-container-text {
+ display: flex;
+ flex-direction: column;
+}
+
+.advantages-container-item {
+  display: flex;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-list-title {
+  display: flex;
+  justify-content: start;
+  height: 384px;
+}
+
+.advantage-list-title-container {
+ display: flex;
+ justify-content: start;
+ height: 384px;
+}
+
+
+.data {
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.data-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.page-footer {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe {
+  color: #ffffff;
+  background-image: url("../images/background/bg-1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+
+.subscribe-tite {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subscribe-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.social-list {
+ width: 142;
+ margin-right: 70px;
+}
+
+.contact {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact-about-text {
+  margin-left: auto;
+  max-width: 115px;
+
+}
+
+.main-inner {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.catalog {
+  margin: 0;
+  padding: 0;
+}
+
+.header-inner-wrapper {
+  background-image: url("../images/background/bg-2.jpg");
+  background-position: bottom, center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.catalog-filter-grooup {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  margin-right: 70px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.catalog-right-column {
+ width: 549px;
+}
+
+.catalog-control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.select-amount {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.display {
+  width: 340px;
+}
+
+.display-list {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.display-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.display-name {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.display-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.display-favorites {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.display-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.pagination {
+  background-color: #82b3d3;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pagination-link .pagination-current {
+  background-color: #f2f2f2;
+  color: #000000;
+}
