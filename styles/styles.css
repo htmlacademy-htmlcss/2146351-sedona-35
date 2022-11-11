@@ -54,6 +54,7 @@ body {
 }
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   width: 1200 px;
   margin: 0 auto;
 }
@@ -65,6 +66,7 @@ body {
   padding: 0;
   list-style-type: none;
 }
+
 .navigation-user {
   max-width: 310px;
   margin-left: auto;
@@ -88,8 +90,12 @@ body {
   flex-grow: 1;
 }
 .page-container {
-  width: 1200 px;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
   margin: 0 auto;
+  min-height: 100%;
+  box-shadow: 0 0 0 2px red;
 }
 .main-index {
   color: #ffffff;
@@ -134,7 +140,7 @@ body {
 }
 .advantages-item-title {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #82B3D3;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -145,7 +151,7 @@ body {
 
 .advantages-item-description {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #82B3D3;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -154,9 +160,14 @@ body {
   padding: 0 85px 111px 85px;
 }
 
-.advantages-item {
+/* .advantages-item {
   margin: 0;
   list-style-type: none;
+} */
+.advantages-item-big {
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
 }
 
 .advantage-container-city {
@@ -196,6 +207,7 @@ body {
   grid-template-columns: 400px 400px 400px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .advantage-list-title {
@@ -217,14 +229,14 @@ body {
 }
 .data-title {
   margin: 0;
-  padding: 96px 451.5px 20px 451.5px;
+  padding: 0 20px;
 }
 .data-text {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   margin: 0;
-  padding: 0 304px 54px 304px;
+  padding: 20px 304px 54px 304px;
 }
 .button-data {
   background-color: #756157;
@@ -245,9 +257,11 @@ body {
   width: 1200 px;
   margin: 0 auto;
 }
+
 .page-footer-container {
   display: flex;
 }
+
 .subscribe {
   color: #ffffff;
   background-image: url("../images/background/bg-1.jpg");
@@ -276,19 +290,21 @@ body {
 .cocial {
   margin-right: auto;
   max-width: 140px;
+  padding: 45px 0 35px 70px;
 }
 .social-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
   padding: 0;
   list-style-type: none;
-  margin: 45px 332px 35px 70px;
 }
 .social-list-item {
   width: 47px;
   height: 40px;
 }
 .contact {
+  display: flex;
   margin: 0;
   padding: 45px 236px 35px 236px;
 }
@@ -300,12 +316,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.htmlacademy-link {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .contact-about-text {
@@ -341,7 +351,7 @@ body {
   display: flex;
   margin: 0;
   list-style-type: none;
-  padding: 0 1016px 40px 70px;
+  padding: 0 1016px 0 70px;
 }
 
 .button-reset {
@@ -359,6 +369,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  width: 150px;
+  height: 157px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -424,6 +436,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border-style: solid;
+  border-color: #e6e6e6;
 }
 
 .display-card-image {
